@@ -1,0 +1,37 @@
+header{
+
+    border:solid 2px black;
+    background: rgb(32, 124, 211);
+ }   
+ul{
+
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+
+}
+li{
+    float: left;
+
+}
+li a{
+    display: block;
+    color:blue;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 14px;
+
+
+
+}
+li a:hover{
+    background-color:black;
+}
+.Derecha{
+
+    position: absolute;
+    top: 15px;
+    left: 1400px;
+
+}

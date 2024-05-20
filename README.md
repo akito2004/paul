@@ -1,1 +1,37 @@
 # paul
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+    
+</body>
+
+
+
+<body>
+<div class="Derecha">
+    <header>
+        <figure>
+            <img src="logo.jfif" alt="imagen">
+        </figure>
+        <nav>
+            <ul>
+                <li><a href="">HOME</a> </li>
+                <li><a href="">CONTENIDOS</a></li>
+                <li><a href="">SERVIVO</a></li>
+                <li><a href="">contacto</a></li>
+
+
+
+            </ul>
+        </nav>
+    </header>
+</div>
+       
+</body>
+</html>

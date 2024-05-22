@@ -1,0 +1,52 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#cursos-avanzados li strong, #como-estudiar li strong {
+
+    color: purple;
+
+}
+@media (min-width:1201px){
+    #ciclos {
+        float: left;
+        width: 30%;
+    }
+#bloque2{
+    float: left;
+    width: 70%;
+}
+#ciclos ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  #ciclos li + li {
+    margin-top: 10px;
+  }
+  #ciclos li strong {
+    display: block;
+  }
+  
+@media (max-width: 600px) {
+    body {
+      font-family: "Times New Roman";
+    }
+    h1 {
+      font-size: 1.5em;
+    }
+    h2 {
+      font-size: 1.2em;
+      border-bottom: 1px solid #000;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li + li {
+      margin-top: 10px;
+    }
+    li strong {
+      display: block;
+    }
+  }
+}

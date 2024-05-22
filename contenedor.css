@@ -1,0 +1,101 @@
+.fixed-container {
+    width: 300px;
+    background-color: #3498db;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.variable-container {
+    width: calc(100% - 300px);
+    background-color: #e74c3c;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+}
+* {
+    font-family: Arial, sans-serif;
+ }
+ .card{
+   width: 300px;
+   padding: 20px;
+   border-radius: 10px;
+   margin: 20px;
+   display: inline-block;
+   border: 1px solid grey;
+ }
+ /* Ejemplo de sombra en una tarjeta */
+ .card-shadow {
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+ }
+ /* Ejemplo de gradiente de fondo */
+ .card-gradient {
+   background: linear-gradient(to bottom, #34db58, #1f587d);
+   color: white;
+   box-shadow: 5px 5px 10px rgba(9, 44, 6, 0.3);
+ }
+ .card-gradient1 {
+    background: linear-gradient(to bottom, #db3434, #1f587d);
+    color: white;
+    box-shadow: 5px 5px 10px rgba(218, 5, 5, 0.3);
+  }
+ /* Ejemplo de filtro en imagen */
+ .filtered-image {
+   filter: brightness(80%) contrast(120%);
+ }
+ /* Estilo para tooltips */
+ .tooltip-container {
+   position: relative;
+   display: inline-block;
+ }
+ .tooltip-text {
+   visibility: hidden;
+   width: 120px;
+   background-color: brown;
+   color: #fff;
+   text-align: center;
+   border-radius: 6px;
+   padding: 5px;
+   position: absolute;
+   z-index: 1;
+   top: 125%; /* Posiciona el tooltip bajo del elemento */
+   left: 50%;
+   transform: translateX(-50%);
+   opacity: 0;
+ }
+ .tooltip-container:hover .tooltip-text {
+   visibility: visible;
+   opacity: 1;
+   transition: opacity 0.3s;
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ul {
+    list-style-type: none; /*También list-style*/
+  }
+  a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+    background-color: #3498db;
+    border-radius: 5px;
+    float: left;
+  }
+  a:hover {
+    background-color: #1f587d;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }

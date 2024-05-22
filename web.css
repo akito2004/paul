@@ -35,3 +35,8 @@ li a:hover{
     left: 1400px;
 
 }
+img{
+    position: relative;
+    top: 15px;
+    left:-500px;
+}
